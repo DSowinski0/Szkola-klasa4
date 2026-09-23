@@ -1,0 +1,27 @@
+﻿<Window x:Class="Gra_w_kosci_2026_desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gra_w_kosci_2026_desktop"
+        mc:Ignorable="d"
+        Title=" Gra w kosci 2026 desktop" Height="450" Width="800"
+        Background="#ED27C121">
+    <Grid>
+
+        <StackPanel>
+            <TextBlock x:Name="TekstWynik"  Height="100"  Width="600" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">0</TextBlock>
+
+            <WrapPanel Width="600" Height="120">
+                <Image MouseDown="Koscc1_MouseDown" x:Name="Koscc1" Source="/Images/kosc0.png" Margin="10" Width="100" Height="100" ></Image>
+                <Image MouseDown="Koscc2_MouseDown" x:Name="Koscc2" Source="/Images/kosc0.png" Margin="10" Width="100" Height="100" ></Image>
+                <Image MouseDown="Koscc3_MouseDown" x:Name="Koscc3" Source="/Images/kosc0.png" Margin="10" Width="100" Height="100" ></Image>
+                <Image MouseDown="Koscc4_MouseDown" x:Name="Koscc4" Source="/Images/kosc0.png" Margin="10" Width="100" Height="100" ></Image>
+                <Image MouseDown="Koscc5_MouseDown" x:Name="Koscc5" Source="/Images/kosc0.png" Margin="10" Width="100" Height="100" ></Image>
+            </WrapPanel>
+
+            <Button Click="Button_Click" Height="30" Width="50" Margin="10" Foreground="White" Background="#ED275021">RZUT</Button>
+        </StackPanel>
+
+    </Grid>
+</Window>
